@@ -1,0 +1,116 @@
+/*--Main--*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+html {
+    font-family: proxima nova, sans-serif;
+}
+body {
+    width: 100%;
+    background-image: url(background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 48px;
+    margin-top: 40px;
+}
+.myProjects {
+    margin-bottom: 20px;
+    text-align: center;
+}
+p {
+    color: white;
+}
+ul {
+    list-style: none;
+    margin-top: 50px;
+    font-style: italic;
+}
+li {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/*--nav--*/
+nav {
+    height: 100px;
+    line-height: 100px;
+    align-content: center;
+    text-align: center;
+}
+nav a {
+    align-content: center;
+    text-align: center;
+}
+nav a img {
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+}
+/*--header--*/
+header {
+    margin: 150px 0 200px 0;
+    text-align: center;
+}
+header p {
+    width: 45%;
+    margin: 50px auto 0 auto;
+    font-size: 20px;
+}
+header a {
+    color: #ff4a5e;
+    text-decoration: none;
+}
+/*--certificates--*/
+.certificates {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.certificates a img {
+    margin: 1%;
+    width: 45%;
+}
+/*--skills/iam--*/
+.mySkills {
+    text-align: center;
+    margin: 100px 0 200px 0;
+    position: relative;
+    text-decoration-color: red;
+}
+.mySkills h1 {
+    color: #13A3FD;
+}
+.iAm {
+    color: #13A3FD;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    z-index: -1;
+}
+/*--myWork--*/
+.myWork {
+    width: 100%;
+    text-align: center;
+}
+.myWork a img {
+    margin: 1%;
+    width: 92%;
+}
