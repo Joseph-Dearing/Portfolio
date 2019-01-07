@@ -17,21 +17,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.wrapper {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 50px;
-}
 
 
 h1 {
     color: white;
     font-size: 48px;
     margin-top: 40px;
-}
-.myProjects {
-    margin-bottom: 20px;
-    text-align: center;
 }
 p {
     color: white;
@@ -76,7 +67,20 @@ header a {
     color: #ff4a5e;
     text-decoration: none;
 }
-/*--certificates--*/
+/*--The Wrapper--*/
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 50px;
+}
+/*--achievements--*/
+.myProjects {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  margin-top: 40px;
+}
 .certificates {
     text-align: center;
     width: 100%;
@@ -86,7 +90,7 @@ header a {
     margin: 1%;
     width: 45%;
 }
-/*--skills/iam--*/
+/*--skills--*/
 .mySkills {
     text-align: center;
     margin: 100px 0 200px 0;
@@ -96,14 +100,10 @@ header a {
 .mySkills h1 {
     color: #13A3FD;
 }
-.iAm {
+.myskillset_header {
     color: #13A3FD;
     font-size: 50px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -50px;
-    z-index: -1;
+    text-align: center;
 }
 /*--myWork--*/
 .myWork {
